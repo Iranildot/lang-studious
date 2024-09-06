@@ -5,7 +5,7 @@ Este repositório contém o código-fonte do Lang Studious, um aplicativo web pa
 ## Funcionalidades:
 
 - Seleção da língua materna e do idioma alvo
-- Botão para gerar uma pergunta (ainda não implementada)
+- Botão para gerar perguntas
 - Exibição de uma imagem e uma mensagem motivacional
 
 ## Tecnologias utilizadas:

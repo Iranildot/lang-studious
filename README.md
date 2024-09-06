@@ -30,11 +30,12 @@ Este repositório contém o código-fonte do Lang Studious, um aplicativo web pa
 ![langapp3](https://github.com/user-attachments/assets/23dc4f16-8fea-4bc8-bb38-c9528d3675d1)
 
 ### Imagem 4
+
 ![langapp4](https://github.com/user-attachments/assets/fd8697e6-52c6-45ee-8c7b-f46d3da2e998)
 
 ### Imagem 5
 
-[langapp5](https://github.com/user-attachments/assets/ac832d59-99fa-468d-bb6b-31dc2e41b331)
+![langapp5](https://github.com/user-attachments/assets/ac832d59-99fa-468d-bb6b-31dc2e41b331)
 
 ## Funcionamento
 

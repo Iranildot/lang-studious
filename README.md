@@ -2,6 +2,10 @@
 
 Este repositório contém o código-fonte do Lang Studious, um aplicativo web para auxiliar no aprendizado de idiomas. O usuário pode selecionar sua língua materna e o idioma que deseja praticar. Ao clicar em "Get questions" (Obter perguntas), o aplicativo apresentará questões para o usuário responder. Para contrução desse app foi utilizado o Gemini para auxiliar no entendimento e também para encontrar alguns recursos como: elementos de tela, estilização etc. que fazem parte do mundo web. A construção desse app só foi possível graças a imerção Imersão Dev com Google Gemini (Alura e Google) na qual foram ensinados conceitos de programação web.
 
+## Teste a aplicação clicando no link abaixo
+
+https://lang-studious.vercel.app/
+
 ## Funcionalidades
 
 - Seleção da língua materna e do idioma alvo

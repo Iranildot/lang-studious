@@ -39,5 +39,4 @@ Este repositório contém o código-fonte do Lang Studious, um aplicativo web pa
 
 ## Funcionamento
 
-https://github.com/user-attachments/assets/53fb13f7-f3ee-42da-a88b-5a33d5943e5e
-
+https://github.com/user-attachments/assets/ae714256-74ae-4228-bfd3-93cabef9da19

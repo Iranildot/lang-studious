@@ -4,7 +4,7 @@ Este repositório contém o código-fonte do Lang Studious, um aplicativo web pa
 
 ## Teste a aplicação clicando no link abaixo
 
-https://lang-studious.vercel.app/
+[Lang Studious](https://lang-studious.vercel.app/)
 
 ## Funcionalidades
 

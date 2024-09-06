@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Lang Studious</title>
+    </head>
+    <body>
+        <header>
+            <h1>Lang Studious</h1>
+        </header>
+
+        <main>
+            <!-- LEFT DRAWER -->
+            <section class="drawer">
+
+                <!-- MOTHER TONGUE SELECT -->
+                <div>
+                    <div>
+                        <i class="material-icons icon">language</i>
+                        <h2>Mother tongue</h2>
+                    </div>
+                    <select class="mother-tongue" id="mother-tongue" onchange="reajust_target_language_options()">
+                        <option value="portuguese">Português</option>
+                        <option value="english">English</option>
+                        <option value="spanish">Español</option>
+                        <option value="french">Français</option>
+                        <option value="german">Deutsch</option>
+                        <option value="italian">Italiano</option>
+                    </select>
+                </div>
+                
+                <!-- TARGET LANGUAGE SELECT -->
+                <div>
+                    <div>
+                        <i class="material-icons icon">translate</i>
+                        <h2>Target language</h2>
+                    </div>
+                    <select class="target-language" id="target-language">
+                        <option value="english">English</option>
+                        <option value="spanish">Español</option>
+                        <option value="french">Français</option>
+                        <option value="german">Deutsch</option>
+                        <option value="italian">Italiano</option>
+                    </select>
+                </div>
+
+                <!-- QUESTIONS GENERATOR BUTTON -->
+                <button class="get-questions" onclick="get_questions()">
+                    <i class="material-icons icon">psychology</i>
+                    Get questions
+                </button>
+
+            </section>
+
+            <!-- QUESTIONS PANEL -->
+             <section class="panel" id="panel">
+                <img src="./images/bear1.png" alt="A bear holding a basketball near to a basketball hoop" width="330px">
+                <p class="message">Let's practice!</p>
+             </section>
+
+        </main>
+        <footer>
+            <p>2024 - Teaching app. All rights reserved.</p>
+        </footer>     
+
+        <script src="data.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

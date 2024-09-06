@@ -1,158 +1,104 @@
 let english_portuguese = [
     {
-        content: "Which verb is used to express a completed action in the past?",
-        answers: ["goed", "gone", "went", "going", "goed"],
+        content: "Qual é a tradução de 'goodbye' para o português?",
+        answers: ["olá", "tchau", "por favor", "obrigado", "desculpe"],
+        rightAnswer: 1,
+        difficulty: "easy"
+    },
+    {
+        content: "Como se diz 'I am hungry' em português?",
+        answers: ["Estou cansado", "Estou com frio", "Estou com fome", "Estou com sono", "Estou feliz"],
         rightAnswer: 2,
         difficulty: "intermediate"
     },
     {
-        content: "What is the plural form of 'child'?",
-        answers: ["childs", "childern", "children", "childs", "childer"],
-        rightAnswer: 2,
+        content: "Qual é o plural de 'livro'?",
+        answers: ["livros", "livres", "livroses", "livrões", "livros"],
+        rightAnswer: 0,
         difficulty: "easy"
     },
     {
-        content: "Which word means the opposite of 'big'?",
-        answers: ["large", "huge", "tiny", "giant", "massive"],
-        rightAnswer: 2,
-        difficulty: "easy"
+        content: "Complete a frase: 'Eu ___ ao mercado todos os dias.'",
+        answers: ["vou", "vai", "foi", "iria", "vai"],
+        rightAnswer: 0,
+        difficulty: "intermediate"
     },
     {
-        content: "Complete the sentence: 'I ___ to school every day.'",
-        answers: ["goes", "go", "going", "went", "gone"],
+        content: "Qual é o passado de 'comer'?",
+        answers: ["come", "comeu", "comi", "comia", "comendo"],
         rightAnswer: 1,
         difficulty: "intermediate"
     },
     {
-        content: "What is the past participle of 'eat'?",
-        answers: ["eated", "eaten", "eat", "eating", "eatened"],
+        content: "Qual preposição é usada para expressar localização?",
+        answers: ["em", "para", "com", "de", "sobre"],
+        rightAnswer: 0,
+        difficulty: "easy"
+    },
+    {
+        content: "Como se diz 'I am tired' em português?",
+        answers: ["Estou feliz", "Estou cansado", "Estou doente", "Estou com frio", "Estou com fome"],
         rightAnswer: 1,
-        difficulty: "intermediate"
-    },
-    {
-        content: "Which preposition is used to express location?",
-        answers: ["on", "at", "in", "to", "all of the above"],
-        rightAnswer: 4,
         difficulty: "easy"
     },
     {
-        content: "Which word means 'very happy'?",
-        answers: ["sad", "angry", "glad", "tired", "bored"],
-        rightAnswer: 2,
-        difficulty: "easy"
-    },
-    {
-        content: "Which sentence is grammatically correct?",
-        answers: ["She don't like apples", "She doesn't likes apples", "She doesn't like apples", "She no likes apples", "She don't likes apples"],
-        rightAnswer: 2,
+        content: "Qual frase está correta?",
+        answers: ["Ela não gosta de maçãs", "Ela não gosta maçãs", "Ela não gosta maçã", "Ela não gosta de maçã", "Ela não goste de maçãs"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "What is the comparative form of 'good'?",
-        answers: ["gooder", "best", "better", "well", "good"],
-        rightAnswer: 2,
+        content: "Qual é a forma comparativa de 'bom'?",
+        answers: ["melhor", "boma", "bem", "melhorado", "boms"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "Which word means 'fear of heights'?",
-        answers: ["acrophobia", "claustrophobia", "hydrophobia", "arachnophobia", "agoraphobia"],
+        content: "Qual palavra significa 'medo de altura'?",
+        answers: ["acrofobia", "claustrofobia", "hidrofobia", "aracnofobia", "agorafobia"],
         rightAnswer: 0,
         difficulty: "advanced"
     },
     {
-        content: "Let's hit the road.",
-        answers: ["Vamos bater na estrada.", "Vamos pegar a estrada.", "Vamos acertar a estrada.", "Vamos bater no carro.", "Vamos seguir em frente."],
-        rightAnswer: 1,
-        difficulty: "advanced"
-    },
-    {
-        content: "She is going to the movies tonight.",
-        answers: ["Ela vai ao cinema hoje à noite.", "Ela está indo ao cinema esta noite.", "Ela irá ao cinema esta noite.", "Todas as alternativas estão corretas.", "Ela irá ao cinema hoje a noite."],
-        rightAnswer: 3,
+        content: "Como se diz 'He is feeling under the weather' em português?",
+        answers: ["Ele está se sentindo mal", "Ele está com o tempo ruim", "Ele está cansado", "Ele está animado", "Ele está com fome"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "I'm feeling under the weather today.",
-        answers: ["Estou me sentindo sob o tempo hoje.", "Estou me sentindo doente hoje.", "O tempo está ruim hoje.", "Estou abaixo do clima hoje.", "Estou me sentindo para baixo hoje."],
-        rightAnswer: 1,
+        content: "Como se diz 'They went to the park' em português?",
+        answers: ["Eles foram ao parque", "Eles vão ao parque", "Eles foram para o parque", "Eles estão no parque", "Eles estão indo para o parque"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "Let's call it a day.",
-        answers: ["Vamos chamar isso de um dia.", "Vamos encerrar por aqui.", "Vamos ligar para ele hoje.", "Vamos chamá-lo de dia.", "Vamos nomeá-lo dia."],
-        rightAnswer: 1,
+        content: "Qual é a tradução de 'It’s raining cats and dogs' para o português?",
+        answers: ["Está chovendo muito", "Está chovendo gatos e cachorros", "Está chovendo pouco", "Está nevando", "Está ensolarado"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "They went hiking last weekend.",
-        answers: ["Eles foram caminhar no fim de semana passado.", "Eles foram fazer trilha no fim de semana passado.", "Eles foram correr no fim de semana passado.", "Eles foram nadar no fim de semana passado.", "Eles ficaram em casa no fim de semana passado."],
-        rightAnswer: 1,
-        difficulty: "easy"
-    },
-    {
-        content: "I'm on cloud nine.",
-        answers: ["Estou nas nuvens.", "Estou muito feliz.", "Estou triste.", "Estou com medo.", "Estou com raiva."],
-        rightAnswer: 1,
+        content: "Complete a frase: 'Eu não posso sair porque ___ meu trabalho de casa.'",
+        answers: ["não terminei", "não terminar", "não terminou", "não terminado", "não terminando"],
+        rightAnswer: 0,
         difficulty: "intermediate"
     },
     {
-        content: "He enjoys playing chess in his free time.",
-        answers: ["Ele gosta de jogar xadrez no tempo livre.", "Ele odeia jogar xadrez no tempo livre.", "Ele joga xadrez profissionalmente.", "Ele assiste xadrez no tempo livre.", "Ele raramente joga xadrez no tempo livre."],
+        content: "Qual das opções é uma expressão de intenção futura?",
+        answers: ["Eu vou para a festa", "Eu fui para a festa", "Eu tenho ido para a festa", "Eu tinha ido para a festa", "Eu vou indo para a festa"],
+        rightAnswer: 0,
+        difficulty: "intermediate"
+    },
+    {
+        content: "Qual é o oposto de 'cedo'?",
+        answers: ["tarde", "rápido", "demorado", "precoce", "atrasado"],
         rightAnswer: 0,
         difficulty: "easy"
     },
     {
-        content: "It's raining cats and dogs.",
-        answers: ["Está chovendo muito.", "Está chovendo gatos e cachorros.", "Está nevado.", "Está fazendo sol.", "Está ventando muito."],
+        content: "Qual é o passado de 'correr'?",
+        answers: ["corri", "correu", "correndo", "corro", "corrido"],
         rightAnswer: 0,
-        difficulty: "intermediate"
-    },
-    {
-        content: "Complete the sentence: 'They ___ soccer every weekend.'",
-        answers: ["plays", "played", "play", "playing", "plaid"],
-        rightAnswer: 2,
-        difficulty: "intermediate"
-    },
-    {
-        content: "What is the superlative form of 'fast'?",
-        answers: ["fastest", "faster", "most fast", "fast", "fasterest"],
-        rightAnswer: 0,
-        difficulty: "easy"
-    },
-    {
-        content: "Choose the correct option: 'He ___ already finished his homework.'",
-        answers: ["has", "have", "having", "is", "had"],
-        rightAnswer: 0,
-        difficulty: "intermediate"
-    },
-    {
-        content: "What does 'Break the ice' mean?",
-        answers: ["Quebrar o gelo literalmente.", "Iniciar uma conversa em uma situação social.", "Fazer algo perigoso.", "Terminar uma relação.", "Sair de uma situação difícil."],
-        rightAnswer: 1,
-        difficulty: "advanced"
-    },
-    {
-        content: "Complete the sentence: 'I can't go out because I ___ my homework yet.'",
-        answers: ["didn't finish", "haven't finished", "don't finish", "won't finish", "didn't finished"],
-        rightAnswer: 1,
-        difficulty: "intermediate"
-    },
-    {
-        content: "Which of the following is an expression of future intention?",
-        answers: ["I will go to the party.", "I went to the party.", "I have gone to the party.", "I had gone to the party.", "I am going to the party."],
-        rightAnswer: 4,
-        difficulty: "intermediate"
-    },
-    {
-        content: "What is the opposite of 'early'?",
-        answers: ["late", "soon", "fast", "quick", "delayed"],
-        rightAnswer: 0,
-        difficulty: "easy"
-    },
-    {
-        content: "What is the past tense of 'run'?",
-        answers: ["run", "runned", "ran", "running", "runs"],
-        rightAnswer: 2,
         difficulty: "easy"
     }
 ];
@@ -579,105 +525,159 @@ let english_italian = [
 
 let portuguese_english = [
     {
-        content: "Qual é a tradução de 'goodbye' para o português?",
-        answers: ["olá", "tchau", "por favor", "obrigado", "desculpe"],
-        rightAnswer: 1,
-        difficulty: "easy"
-    },
-    {
-        content: "Como se diz 'I am hungry' em português?",
-        answers: ["Estou cansado", "Estou com frio", "Estou com fome", "Estou com sono", "Estou feliz"],
+        content: "Which verb is used to express a completed action in the past?",
+        answers: ["goed", "gone", "went", "going", "goed"],
         rightAnswer: 2,
         difficulty: "intermediate"
     },
     {
-        content: "Qual é o plural de 'livro'?",
-        answers: ["livros", "livres", "livroses", "livrões", "livros"],
-        rightAnswer: 0,
+        content: "What is the plural form of 'child'?",
+        answers: ["childs", "childern", "children", "childs", "childer"],
+        rightAnswer: 2,
         difficulty: "easy"
     },
     {
-        content: "Complete a frase: 'Eu ___ ao mercado todos os dias.'",
-        answers: ["vou", "vai", "foi", "iria", "vai"],
-        rightAnswer: 0,
-        difficulty: "intermediate"
+        content: "Which word means the opposite of 'big'?",
+        answers: ["large", "huge", "tiny", "giant", "massive"],
+        rightAnswer: 2,
+        difficulty: "easy"
     },
     {
-        content: "Qual é o passado de 'comer'?",
-        answers: ["come", "comeu", "comi", "comia", "comendo"],
+        content: "Complete the sentence: 'I ___ to school every day.'",
+        answers: ["goes", "go", "going", "went", "gone"],
         rightAnswer: 1,
         difficulty: "intermediate"
     },
     {
-        content: "Qual preposição é usada para expressar localização?",
-        answers: ["em", "para", "com", "de", "sobre"],
-        rightAnswer: 0,
-        difficulty: "easy"
-    },
-    {
-        content: "Como se diz 'I am tired' em português?",
-        answers: ["Estou feliz", "Estou cansado", "Estou doente", "Estou com frio", "Estou com fome"],
+        content: "What is the past participle of 'eat'?",
+        answers: ["eated", "eaten", "eat", "eating", "eatened"],
         rightAnswer: 1,
+        difficulty: "intermediate"
+    },
+    {
+        content: "Which preposition is used to express location?",
+        answers: ["on", "at", "in", "to", "all of the above"],
+        rightAnswer: 4,
         difficulty: "easy"
     },
     {
-        content: "Qual frase está correta?",
-        answers: ["Ela não gosta de maçãs", "Ela não gosta maçãs", "Ela não gosta maçã", "Ela não gosta de maçã", "Ela não goste de maçãs"],
-        rightAnswer: 0,
+        content: "Which word means 'very happy'?",
+        answers: ["sad", "angry", "glad", "tired", "bored"],
+        rightAnswer: 2,
+        difficulty: "easy"
+    },
+    {
+        content: "Which sentence is grammatically correct?",
+        answers: ["She don't like apples", "She doesn't likes apples", "She doesn't like apples", "She no likes apples", "She don't likes apples"],
+        rightAnswer: 2,
         difficulty: "intermediate"
     },
     {
-        content: "Qual é a forma comparativa de 'bom'?",
-        answers: ["melhor", "boma", "bem", "melhorado", "boms"],
-        rightAnswer: 0,
+        content: "What is the comparative form of 'good'?",
+        answers: ["gooder", "best", "better", "well", "good"],
+        rightAnswer: 2,
         difficulty: "intermediate"
     },
     {
-        content: "Qual palavra significa 'medo de altura'?",
-        answers: ["acrofobia", "claustrofobia", "hidrofobia", "aracnofobia", "agorafobia"],
+        content: "Which word means 'fear of heights'?",
+        answers: ["acrophobia", "claustrophobia", "hydrophobia", "arachnophobia", "agoraphobia"],
         rightAnswer: 0,
         difficulty: "advanced"
     },
     {
-        content: "Como se diz 'He is feeling under the weather' em português?",
-        answers: ["Ele está se sentindo mal", "Ele está com o tempo ruim", "Ele está cansado", "Ele está animado", "Ele está com fome"],
-        rightAnswer: 0,
+        content: "Let's hit the road.",
+        answers: ["Vamos bater na estrada.", "Vamos pegar a estrada.", "Vamos acertar a estrada.", "Vamos bater no carro.", "Vamos seguir em frente."],
+        rightAnswer: 1,
+        difficulty: "advanced"
+    },
+    {
+        content: "She is going to the movies tonight.",
+        answers: ["Ela vai ao cinema hoje à noite.", "Ela está indo ao cinema esta noite.", "Ela irá ao cinema esta noite.", "Todas as alternativas estão corretas.", "Ela irá ao cinema hoje a noite."],
+        rightAnswer: 3,
         difficulty: "intermediate"
     },
     {
-        content: "Como se diz 'They went to the park' em português?",
-        answers: ["Eles foram ao parque", "Eles vão ao parque", "Eles foram para o parque", "Eles estão no parque", "Eles estão indo para o parque"],
-        rightAnswer: 0,
+        content: "I'm feeling under the weather today.",
+        answers: ["Estou me sentindo sob o tempo hoje.", "Estou me sentindo doente hoje.", "O tempo está ruim hoje.", "Estou abaixo do clima hoje.", "Estou me sentindo para baixo hoje."],
+        rightAnswer: 1,
         difficulty: "intermediate"
     },
     {
-        content: "Qual é a tradução de 'It’s raining cats and dogs' para o português?",
-        answers: ["Está chovendo muito", "Está chovendo gatos e cachorros", "Está chovendo pouco", "Está nevando", "Está ensolarado"],
-        rightAnswer: 0,
+        content: "Let's call it a day.",
+        answers: ["Vamos chamar isso de um dia.", "Vamos encerrar por aqui.", "Vamos ligar para ele hoje.", "Vamos chamá-lo de dia.", "Vamos nomeá-lo dia."],
+        rightAnswer: 1,
         difficulty: "intermediate"
     },
     {
-        content: "Complete a frase: 'Eu não posso sair porque ___ meu trabalho de casa.'",
-        answers: ["não terminei", "não terminar", "não terminou", "não terminado", "não terminando"],
-        rightAnswer: 0,
+        content: "They went hiking last weekend.",
+        answers: ["Eles foram caminhar no fim de semana passado.", "Eles foram fazer trilha no fim de semana passado.", "Eles foram correr no fim de semana passado.", "Eles foram nadar no fim de semana passado.", "Eles ficaram em casa no fim de semana passado."],
+        rightAnswer: 1,
+        difficulty: "easy"
+    },
+    {
+        content: "I'm on cloud nine.",
+        answers: ["Estou nas nuvens.", "Estou muito feliz.", "Estou triste.", "Estou com medo.", "Estou com raiva."],
+        rightAnswer: 1,
         difficulty: "intermediate"
     },
     {
-        content: "Qual das opções é uma expressão de intenção futura?",
-        answers: ["Eu vou para a festa", "Eu fui para a festa", "Eu tenho ido para a festa", "Eu tinha ido para a festa", "Eu vou indo para a festa"],
-        rightAnswer: 0,
-        difficulty: "intermediate"
-    },
-    {
-        content: "Qual é o oposto de 'cedo'?",
-        answers: ["tarde", "rápido", "demorado", "precoce", "atrasado"],
+        content: "He enjoys playing chess in his free time.",
+        answers: ["Ele gosta de jogar xadrez no tempo livre.", "Ele odeia jogar xadrez no tempo livre.", "Ele joga xadrez profissionalmente.", "Ele assiste xadrez no tempo livre.", "Ele raramente joga xadrez no tempo livre."],
         rightAnswer: 0,
         difficulty: "easy"
     },
     {
-        content: "Qual é o passado de 'correr'?",
-        answers: ["corri", "correu", "correndo", "corro", "corrido"],
+        content: "It's raining cats and dogs.",
+        answers: ["Está chovendo muito.", "Está chovendo gatos e cachorros.", "Está nevado.", "Está fazendo sol.", "Está ventando muito."],
         rightAnswer: 0,
+        difficulty: "intermediate"
+    },
+    {
+        content: "Complete the sentence: 'They ___ soccer every weekend.'",
+        answers: ["plays", "played", "play", "playing", "plaid"],
+        rightAnswer: 2,
+        difficulty: "intermediate"
+    },
+    {
+        content: "What is the superlative form of 'fast'?",
+        answers: ["fastest", "faster", "most fast", "fast", "fasterest"],
+        rightAnswer: 0,
+        difficulty: "easy"
+    },
+    {
+        content: "Choose the correct option: 'He ___ already finished his homework.'",
+        answers: ["has", "have", "having", "is", "had"],
+        rightAnswer: 0,
+        difficulty: "intermediate"
+    },
+    {
+        content: "What does 'Break the ice' mean?",
+        answers: ["Quebrar o gelo literalmente.", "Iniciar uma conversa em uma situação social.", "Fazer algo perigoso.", "Terminar uma relação.", "Sair de uma situação difícil."],
+        rightAnswer: 1,
+        difficulty: "advanced"
+    },
+    {
+        content: "Complete the sentence: 'I can't go out because I ___ my homework yet.'",
+        answers: ["didn't finish", "haven't finished", "don't finish", "won't finish", "didn't finished"],
+        rightAnswer: 1,
+        difficulty: "intermediate"
+    },
+    {
+        content: "Which of the following is an expression of future intention?",
+        answers: ["I will go to the party.", "I went to the party.", "I have gone to the party.", "I had gone to the party.", "I am going to the party."],
+        rightAnswer: 4,
+        difficulty: "intermediate"
+    },
+    {
+        content: "What is the opposite of 'early'?",
+        answers: ["late", "soon", "fast", "quick", "delayed"],
+        rightAnswer: 0,
+        difficulty: "easy"
+    },
+    {
+        content: "What is the past tense of 'run'?",
+        answers: ["run", "runned", "ran", "running", "runs"],
+        rightAnswer: 2,
         difficulty: "easy"
     }
 ];
